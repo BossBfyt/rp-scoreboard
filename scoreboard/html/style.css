@@ -1,0 +1,84 @@
+@import url('res/futurastd-medium.css');
+
+html {
+	color: #e0e0e0;
+	font-family: 'Segoe UI';
+}
+
+#wrap {
+	position:relative;
+	width:700px;
+	min-height: 50px;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	float:left;
+	margin-left:15px;
+	padding-left:10px;
+	font-size:1.05vw;
+}
+
+.jobs {
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	background-color:#181c21;
+	height:40px;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.jobsdiv {
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.jobs p {
+	margin-right: 10px;
+	border-radius:10px;
+}
+
+img {
+	margin-top:5px;
+}
+
+table {
+	text-align: left;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border: rgba(0, 0, 0, 0.0);
+}
+
+th, td {
+	padding-left: 20px;
+}
+
+th {
+	padding-top: 5px;
+	height: 35px;
+}
+
+tr {
+	font-size: 120%;
+}
+
+tr.heading {
+    background-color: rgba(0, 0, 0, 0.0);
+		color: #ff3300;
+		font-weight: 500;
+}
+
+#playerConH3 {
+	position:relative;
+	left: 560px;
+	bottom: 0px;
+	font-size:18px;
+	color:#f2f1f1;
+	font-weight: bold;
+	padding:8px;
+}
