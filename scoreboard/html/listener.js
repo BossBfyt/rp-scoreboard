@@ -12,7 +12,7 @@ $(function()
 		$('#cardealer').html(event.data.cardealer);
 		$('#realestate').html(event.data.realestate);
 		$('#playerCon').html(event.data.playerCon);
-        buf.find('table').append("<tr class=\"heading\"><th>Nimi</th><th>Ammatti</th><th>Puh</th><th>Ping</th></tr>");
+        buf.find('table').append("<tr class=\"heading\"><th>Name</th><th>Job</th><th>Phone</th><th>Ping</th></tr>");
         if (item.meta && item.meta == 'close')
         {
             document.getElementById("ptbl").innerHTML = "";
